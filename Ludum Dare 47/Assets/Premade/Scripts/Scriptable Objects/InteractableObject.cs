@@ -6,11 +6,11 @@ using UnityEngine;
 public class InteractableObject : ScriptableObject
 {
     public new string name;
-    public GameObject gameObject;
+    public GameObject prefab;
     public bool isBreakable;
 
     private void Awake()
     {
-        gameObject.transform.tag = "Interactable";
+        prefab.transform.tag = "Interactable";
     }
 }

@@ -7,14 +7,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4233a23ffb8818d4081e599b0c9f9cb6, type: 3}
-  m_Name: Player
+  m_Script: {fileID: 11500000, guid: f7603ddf46f55ae4f93830b541820474, type: 3}
+  m_Name: Interactable
   m_EditorClassIdentifier: 
-  name: 
-  prefab: {fileID: 6078085404836028970, guid: dc0edfabb1131de46ad465e46b173cde, type: 3}
-  health: 5
-  damage: 5
-  speed: 5
-  reach: 2
+  name: Ball
+  prefab: {fileID: 5677173444408448145, guid: 72ca4fbef9785914a8b54de0830937f6, type: 3}
+  isBreakable: 0

@@ -7,8 +7,7 @@ using Cinemachine;
 namespace Player {
     public class PlayerSpawnpoint : MonoBehaviour
     {
-        public GameObject player;
-        public Camera[] cameras;
+        public Controller player;
 
         private GameObject inst;
 
@@ -20,7 +19,7 @@ namespace Player {
         public void SpawnPlayer()
         {
             if (player == null) return;
-            inst = Instantiate(player);
+            inst = Instantiate(player.prefab);
             inst.name = player.name;
             inst.transform.position = transform.position;
         }
